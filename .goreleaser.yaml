@@ -59,3 +59,10 @@ brews:
     repository:
       owner: marianina8
       name: homebrew-simplecli
+
+dockers:
+  - 
+    image_templates:
+      - "docker.io/marianmontagnino/simplecli:{{.Version}}"
+    build_flag_templates:
+      - "--no-cache"
