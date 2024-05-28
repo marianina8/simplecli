@@ -46,7 +46,17 @@ release:
  draft: false
  prerelease: auto
 
-# The lines beneath this are called `modelines`. See `:help modeline`
-# Feel free to remove those if you don't want/use them.
-# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
-# vim: set ts=2 sw=2 tw=0 fo=cnqoj
+# .goreleaser.yaml
+brews:
+  -
+    name: simplecli
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com
+    commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
+    homepage: "https://github.com/marianina8"
+    description: "A simple CLI tool to explain automated deployments"
+    license: "MIT"
+    repository:
+      owner: marianina8
+      name: homebrew-simplecli
