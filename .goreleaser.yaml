@@ -77,7 +77,7 @@ nfpms:
       - rpm
     homepage: https://github.com/marianina8/simplecli
     maintainer: Marian Montagnino <mmontagnino@gmail.com>
-    description: | -
+    description: |-
       Simple CLI app installer package.
     license: MIT
     bindir: /usr/bin
