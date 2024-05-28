@@ -46,15 +46,6 @@ release:
  draft: false
  prerelease: auto
 
-brews:
- - name: simplecli
-   homepage: https://github.com/marianina8
-   tap:
-     owner: marianina8
-     name: homebrew-simplecli
-   commit_author:
-     name: marianina8
-     
 # The lines beneath this are called `modelines`. See `:help modeline`
 # Feel free to remove those if you don't want/use them.
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
