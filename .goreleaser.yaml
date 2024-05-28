@@ -66,3 +66,21 @@ dockers:
       - "docker.io/marianmontagnino/simplecli:{{.Version}}"
     build_flag_templates:
       - "--no-cache"
+
+nfpms:
+  - 
+    id: simplecli
+    package_name: simplecli
+
+    formats:
+      - deb
+      - rpm
+    homepage: https://github.com/marianina8/simplecli
+    maintainer: Marian Montagnino <mmontagnino@gmail.com>
+    description: | -
+      Simple CLI app installer package.
+    license: MIT
+    bindir: /usr/bin
+
+sboms:
+ - artifacts: archive
