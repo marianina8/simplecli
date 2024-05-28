@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+ <metadata>
+   <id>simplecli</id>
+   <version>__REPLACE__</version>
+   <title>Simple CLI</title>
+   <authors>Marian Montagnino</authors>
+   <packageSourceUrl>https://community.chocolatey.org/packages/simplecli/</packageSourceUrl>
+   <projectUrl>https://github.com/marianina8/simplecli</projectUrl>
+   <description>This simple CLI will give you the ability to output the GOOS, operating system, and GOARCH, architecture, for your go environment.</description>
+   <tags>cli golang simple</tags>
+ </metadata>
+ <files>
+   <file src="tools\**" target="tools" />
+ </files>
+</package>

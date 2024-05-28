@@ -46,7 +46,6 @@ release:
  draft: false
  prerelease: auto
 
-# .goreleaser.yaml
 brews:
   -
     name: simplecli
